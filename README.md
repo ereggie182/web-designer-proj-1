@@ -46,3 +46,6 @@ background: #f9f9fa
 
 **links**
 color: #d35c6f
+
+**buttons**
+background: #8f9396
