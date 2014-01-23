@@ -4,9 +4,6 @@
 
 Wednesday class has decided on a design mockup to recreate for our next project. The goal was to pick a clean, simple layout with the intention of replicating it as closely as possible, building it to be responsive. We decided on a blog article design by Drew Wilson.
 
-**Download**
-http://dribbble.com/shots/1086888-Roon-Article-Page/attachments/135458
-
 **Info**
 Ideally we'll only spend a couple weeks on this project, allowing time for a final project that will be a bit more involved. Feel free to contact me at erow80@gmail.com if you are interested in participating or have any questions/suggestions.
 
