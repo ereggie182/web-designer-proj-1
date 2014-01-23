@@ -43,3 +43,6 @@ background: #f9f9fa
 
 **borders**
 1px solid #ededee
+
+**links**
+color: #d35c6f
