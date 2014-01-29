@@ -1,12 +1,19 @@
-# Code Louisville
-### Project 1
-
+# Project 1
+### Roon blog clone
 
 Wednesday class has decided on a design mockup to recreate for our next project. The goal was to pick a clean, simple layout with the intention of replicating it as closely as possible, building it to be responsive. We decided on a blog article design by Drew Wilson.
 
 **Goal**
 
 Ideally we'll only spend a couple weeks on this project, allowing time for a final project that will be a bit more involved. Feel free to add any questions/suggestions on the GitHub wiki for this project.
+
+## How's this work?
+
+1. Fork this project via GitHub.
+2. Build your project out.
+3. Push your project up to **your GitHub account**. All of your personal projects will live on repos of your personal account.
+4. If you notice any issues or would like to contribute to the project, create pull requests via GitHub.
+5. This is a process. Any feedback is welcome.
 
 **Tips**
 
@@ -16,8 +23,7 @@ Ideally we'll only spend a couple weeks on this project, allowing time for a fin
 - Pay close attention to typography and spacing. These things make or break designs, especially one as restrained as this.
 - A great lightweight grid framework you might look into using is Skeleton, although there are many others. Alternatively, you could roll your own.
 
-
-## Assets and Info
+## Assets
 
 ### Icons
 
