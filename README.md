@@ -31,6 +31,8 @@ Grab some free stock photos and drop them in where appropriate. This is a cool s
 
 http://nos.twnsnd.co/
 
+Also, feel free to use your own photo in place of Drew's.
+
 ### CSS
 
 **body**
