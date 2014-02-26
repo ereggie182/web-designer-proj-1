@@ -1,0 +1,282 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+        #Site Styles
+        #Page Styles
+        #Media Queries
+        #Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+#image {     
+    max-width: 100%;    
+    margin: auto;  
+    margin-bottom: 4%;
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+}
+
+.logo {    
+    position: absolute;
+    top: 0.5%;
+    left: 88%;
+}
+
+#blog_head {
+    width: 82.729%;
+    position: relative;
+    left: 8.9%;
+    top: 7px;    
+}
+ 
+#p2 {
+    position: relative;
+    top: 8px;
+}
+
+#p3 {
+    position: relative;
+    top: 10px;
+} 
+
+#text_body {
+    position: relative;
+    left: 8.8%;
+    width: 82%;  
+    bottom: -10px;
+    margin-bottom: 10%;       
+}
+
+#date {    
+    float: right;
+    position: relative;
+    right: 14%;
+}
+
+#home {
+    float:left;
+    position: relative;
+    left: 29.8%;      
+}
+
+#btn {
+    display: inline;
+    text-align: center;    
+    margin-bottom: 9%;
+    margin-left: 3.5%;
+}
+
+ #move_left {
+    position: relative;
+    margin-left: 17%;
+    width: 82%;
+    top: -9px;   
+   }
+
+#drew_wilson{
+    right: 10%;
+    position: relative;
+    margin-top: 1.5%;    
+    height: 115px;
+    width: 120px;
+}
+
+#drew_wilson img{
+   width: 100%;
+   height: 100%;
+}
+
+#contact{
+    position: relative;
+    right: 9%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+#social_media a {
+    font-size: 15px;
+}
+
+#about_drew {
+    position: relative;
+    margin-left: 5.4%;
+    margin-top: 2%;
+    word-spacing: 0.5px;
+    line-height: 170%;
+}
+
+#about_drew p {
+    font-size: 14px;
+    margin-bottom: 19%;
+}
+
+#footer {
+    height: 120px;
+    max-width: 100%;
+    margin: auto;
+    background: #f9f9fa;    
+    border-top: 1px solid lightgrey;
+    position: relative;
+    opacity: 0.6;
+    top: -5px;
+}
+
+#move_left_footer  {
+    position: relative;
+    left: 6.2%;
+    top: 37.5%;
+}
+
+#back_btn, #fwd_btn {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-top: 5px;    
+    background-color: #8f9396; 
+    cursor: pointer;
+    color: white;   
+}
+
+#fwd_btn {
+    margin-left: 4.5%;    
+}
+
+#span_size1 {
+    white-space: nowrap;
+    padding-left: 1%;
+}
+
+
+/* #Media Queries
+================================================== */
+
+        /* Smaller than standard 960 (devices and browsers) */
+        @media only screen and (max-width: 959px) {}
+
+        /* Tablet Portrait size to standard 960 (devices and browsers) */
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+             #drew_wilson, #contact {
+                left: 25%;
+            }
+            #about_drew {
+                left: 18%;
+            }
+            #span_size1{
+                position: relative;
+                right: 3.5%;
+            } 
+            #date {
+                right: 1%;
+           }              
+        }
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) { 
+
+        }
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+            #home {
+            left: 9%;
+            }
+            #date {
+                float: left;
+                left: 11%;
+           }     
+            p.lead{
+                font-size: 17px;
+                line-height: 23px;                
+            }     
+            #drew_wilson, #contact {
+                left: 17%;
+            }
+            #about_drew {
+                right: 10%;
+            }
+            #follow_me {
+                width: 100%;
+                margin-top: 5%;
+            }
+            #back_btn{
+                position: relative;
+                right: 10%;
+                top: 27px;
+            }
+            #fwd_btn{
+                position: relative;
+                left: 43%;
+                bottom: 32px;
+            }
+        }
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+
+            #home {
+            left: 9%;
+            }
+            #date {
+                float: left;
+                left: 11%;
+            }
+            p.lead{
+                font-size: 15px;
+                line-height: 20px;                
+            }
+            #drew_wilson, #contact {
+                left: 17%;
+            }
+            #about_drew {
+                right: 10%;
+            }
+            #follow_me {
+                width: 100%;
+                margin-top: 5%;
+            }
+            #back_btn{
+                position: relative;
+                right: 10%;
+                top: 27px;
+            }
+            #fwd_btn{
+                position: relative;
+                left: 58%;
+                bottom: 32px;
+            }
+        }
+
+
+/* #Font-Face
+================================================== */
+/*         This is the proper syntax for an @font-face file
+                Just create a "fonts" folder at the root,
+                copy your FontName into code below and remove
+                comment brackets */
+
+/*        @font-face {
+            font-family: 'FontName';
+            src: url('../fonts/FontName.eot');
+            src: url('../fonts/FontName.eot?iefix') format('eot'),
+                 url('../fonts/FontName.woff') format('woff'),
+                 url('../fonts/FontName.ttf') format('truetype'),
+                 url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+            font-weight: normal;
+            font-style: normal; }
+*/
